@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-@MicronautTest
+@MicronautTest(environments = "db")
 class SomeRepositoryTest {
 
     @Test
